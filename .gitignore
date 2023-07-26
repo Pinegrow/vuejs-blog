@@ -1,3 +1,9 @@
 node_modules
 dist
 .vitepress/cache
+
+#Pinegrow
+_pgbackup
+_pginfo
+#optional
+pinegrow.json 
