@@ -38,6 +38,10 @@ export default defineConfig({
   vite: {
     plugins: [
       liveDesigner({
+        tailwindcss: {
+          configPath: '../tailwind.config.js',
+          cssPath: './theme/style.css'
+        }
         //...
       })
     ]
