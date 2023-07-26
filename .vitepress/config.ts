@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { genFeed } from './genFeed.js'
+import { liveDesigner } from '@pinegrow/vite-plugin'
 
 export default defineConfig({
   title: 'The Vue Point',
@@ -33,5 +34,12 @@ export default defineConfig({
       }
     ]
   ],
-  buildEnd: genFeed
+  buildEnd: genFeed,
+  vite: {
+    plugins: [
+      liveDesigner({
+        //...
+      })
+    ]
+  }
 })
