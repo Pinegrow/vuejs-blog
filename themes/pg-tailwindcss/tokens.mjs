@@ -101,6 +101,8 @@ const pg_colors = {
 
 const pg_fonts = {}
 
+const pg_font_urls = []
+
 const pg_backgrounds = {}
 
 /* Pinegrow generated Design Panel End */
@@ -109,4 +111,4 @@ const pg_backgrounds = {}
 /* prettier-disable */
 /* @ts-nocheck */
 
-export { pg_colors, pg_fonts, pg_backgrounds }
+export { pg_colors, pg_fonts, pg_font_urls, pg_backgrounds }
