@@ -41,6 +41,9 @@ export default defineConfig({
         tailwindcss: {
           configPath: '../tailwind.config.js',
           cssPath: './theme/style.css'
+          // themePath: false, // Set to false so that Design Panel is not used
+          // restartOnConfigUpdate: true,
+          // restartOnThemeUpdate: true,
         }
         //...
       })

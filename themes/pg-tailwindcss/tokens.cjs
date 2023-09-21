@@ -101,17 +101,17 @@ const pg_colors = {
 
 const pg_fonts = {}
 
-const pg_font_urls = []
-
 const pg_backgrounds = {}
-
-const pg_background_urls = {}
 
 /* Pinegrow generated Design Panel End */
 
 /* eslint-disable */
 /* prettier-disable */
 /* @ts-nocheck */
+
+const pg_font_urls = []
+
+const pg_background_urls = {}
 
 module.exports = {
   pg_colors,
