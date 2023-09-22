@@ -43,7 +43,7 @@ export default defineConfig({
           cssPath: './theme/style.css'
           // themePath: false, // Set to false so that Design Panel is not used
           // restartOnConfigUpdate: true,
-          // restartOnThemeUpdate: true,
+          restartOnThemeUpdate: true,
         }
         //...
       })
