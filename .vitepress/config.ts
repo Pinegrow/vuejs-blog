@@ -40,10 +40,10 @@ export default defineConfig({
       liveDesigner({
         tailwindcss: {
           configPath: '../tailwind.config.js',
-          cssPath: './theme/style.css'
+          cssPath: './theme/style.css',
           // themePath: false, // Set to false so that Design Panel is not used
           // restartOnConfigUpdate: true,
-          restartOnThemeUpdate: true,
+          restartOnThemeUpdate: true
         }
         //...
       })

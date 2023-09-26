@@ -1,6 +1,3 @@
-/* Pinegrow generated Design Panel Init Begin */
-
-/* Pinegrow generated Design Panel Init End */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -152,11 +149,3 @@ span.lang {
 .custom-block.tip:before {
   color: #42b883;
 }
-
-/* Pinegrow generated Design Panel Extra Rules Begin */
-body,
-html {
-  min-height: 100vh;
-}
-
-/* Pinegrow generated Design Panel Extra Rules End */
