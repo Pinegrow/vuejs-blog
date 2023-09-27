@@ -9,8 +9,8 @@
     "serve": "vitepress serve"
   },
   "devDependencies": {
-    "@pinegrow/tailwindcss-plugin": "^3.0.14",
-    "@pinegrow/vite-plugin": "^3.0.19",
+    "@pinegrow/tailwindcss-plugin": "^3.0.17",
+    "@pinegrow/vite-plugin": "^3.0.21",
     "@tailwindcss/typography": "^0.5.4",
     "@types/markdown-it": "^12.2.3",
     "@types/node": "^18.7.13",
