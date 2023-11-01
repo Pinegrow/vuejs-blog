@@ -5,7 +5,6 @@ import { useData } from 'vitepress'
 
 const { frontmatter } = useData()
 </script>
-
 <template>
   <div class="divide-y divide-gray-200 dark:divide-slate-200/5">
     <div class="pt-6 pb-8 space-y-2 md:space-y-5">

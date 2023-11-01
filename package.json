@@ -5,8 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vitepress",
+    "now": "npm run build && npm run preview",
+    "lighthouse:dev": "npx unlighthouse --no-cache --site http://localhost:5173",
+    "lighthouse": "npx unlighthouse --no-cache --site https://blog.vuejs.org",
     "build": "vitepress build",
-    "serve": "vitepress serve"
+    "preview": "vitepress serve"
   },
   "devDependencies": {
     "@pinegrow/tailwindcss-plugin": "^3.0.17",
