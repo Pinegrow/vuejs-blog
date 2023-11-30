@@ -9,8 +9,8 @@ devDependencies:
     specifier: ^3.0.18
     version: 3.0.18(tailwindcss@3.3.1)
   '@pinegrow/vite-plugin':
-    specifier: ^3.0.29
-    version: 3.0.29
+    specifier: ^3.0.34
+    version: 3.0.34
   '@tailwindcss/typography':
     specifier: ^0.5.4
     version: 0.5.4(tailwindcss@3.3.1)
@@ -482,8 +482,8 @@ packages:
       tailwindcss: 3.3.1(postcss@8.4.23)
     dev: true
 
-  /@pinegrow/vite-plugin@3.0.29:
-    resolution: {integrity: sha512-wimWCsGHEM6J6t3Y+tPpv2ItAA0gWL3I4RrjnpChYtWhNud0VJ/YmQUN/eVfVTUImkVJcqJ53Q1cAVsSlm137Q==}
+  /@pinegrow/vite-plugin@3.0.34:
+    resolution: {integrity: sha512-lR6DBqXX2zK3wrxZuzqDVeUpmagoNT/s5+NFIinkAkf/JX9AcZ1DziMO3YbOOq31IPHIPsHSf2clGE0ZhYlGnA==}
     dependencies:
       '@vue/compiler-sfc': 3.2.47
       magic-string: 0.27.0
