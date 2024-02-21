@@ -6,11 +6,11 @@ settings:
 
 devDependencies:
   '@pinegrow/tailwindcss-plugin':
-    specifier: ^3.0.18
-    version: 3.0.18(tailwindcss@3.3.1)
+    specifier: ^3.0.20
+    version: 3.0.20(tailwindcss@3.3.1)
   '@pinegrow/vite-plugin':
-    specifier: ^3.0.34
-    version: 3.0.34
+    specifier: ^3.0.52
+    version: 3.0.52
   '@tailwindcss/typography':
     specifier: ^0.5.4
     version: 0.5.4(tailwindcss@3.3.1)
@@ -467,8 +467,8 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@pinegrow/tailwindcss-plugin@3.0.18(tailwindcss@3.3.1):
-    resolution: {integrity: sha512-1vmy3e0om1x/0jt8qNq5MNMXCj9C61n1qvQn7E7AJaxdJ4BqG3bQEpemlnpnWwkbJvaYONw+dxOHzATmt1eZhQ==}
+  /@pinegrow/tailwindcss-plugin@3.0.20(tailwindcss@3.3.1):
+    resolution: {integrity: sha512-fyluCXkl6G3ZDRJIx1lVQLX9MqccaQhFdfBROq+DVEDBMqmQibIYGkmC5zgRvpJLxe8GlGGe3mY5sEBUo7ccsw==}
     hasBin: true
     peerDependencies:
       tailwindcss: '>=3'
@@ -482,8 +482,8 @@ packages:
       tailwindcss: 3.3.1(postcss@8.4.23)
     dev: true
 
-  /@pinegrow/vite-plugin@3.0.34:
-    resolution: {integrity: sha512-lR6DBqXX2zK3wrxZuzqDVeUpmagoNT/s5+NFIinkAkf/JX9AcZ1DziMO3YbOOq31IPHIPsHSf2clGE0ZhYlGnA==}
+  /@pinegrow/vite-plugin@3.0.52:
+    resolution: {integrity: sha512-RrW4kF6FvQupXjbs9/WEuICaIfX5lXQKrPbuf4TosU/KP/vtabfmCUXa+ya+J5eikEOXW4xWaAni/c0F2Nckpg==}
     dependencies:
       '@vue/compiler-sfc': 3.2.47
       magic-string: 0.27.0
