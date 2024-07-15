@@ -6,11 +6,11 @@ settings:
 
 devDependencies:
   '@pinegrow/tailwindcss-plugin':
-    specifier: ^3.0.20
-    version: 3.0.20(tailwindcss@3.3.1)
+    specifier: ^3.0.29
+    version: 3.0.29(tailwindcss@3.3.1)
   '@pinegrow/vite-plugin':
-    specifier: ^3.0.56
-    version: 3.0.56
+    specifier: ^3.0.60
+    version: 3.0.60
   '@tailwindcss/typography':
     specifier: ^0.5.4
     version: 0.5.4(tailwindcss@3.3.1)
@@ -467,8 +467,8 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@pinegrow/tailwindcss-plugin@3.0.20(tailwindcss@3.3.1):
-    resolution: {integrity: sha512-fyluCXkl6G3ZDRJIx1lVQLX9MqccaQhFdfBROq+DVEDBMqmQibIYGkmC5zgRvpJLxe8GlGGe3mY5sEBUo7ccsw==}
+  /@pinegrow/tailwindcss-plugin@3.0.29(tailwindcss@3.3.1):
+    resolution: {integrity: sha512-wvtMkaoDQcYv+PhbRBVJZFKt5ZV3lSUiGJoH+ORu6q//WuR0VNjOJk9pdauv/0Wru4MvLHZSIett60Px05Rbhw==}
     hasBin: true
     peerDependencies:
       tailwindcss: '>=3'
@@ -482,8 +482,8 @@ packages:
       tailwindcss: 3.3.1(postcss@8.4.23)
     dev: true
 
-  /@pinegrow/vite-plugin@3.0.56:
-    resolution: {integrity: sha512-wSth/FZbIQkXC+whUpglT2vl/qU5FYvf8kgGX/aY/SCmcwnuDR7YgsJMWThXshWovjNKfHjDf3GECGrPdDwymQ==}
+  /@pinegrow/vite-plugin@3.0.60:
+    resolution: {integrity: sha512-Vg4S3iAOWk96N+X6O+VJTboHy71qX/xok5T3m3oc3zjhE2s5rg2UBiqrbIAdZpkNlBLpeqAVcC9eyj2Em8w0bQ==}
     dependencies:
       '@vue/compiler-sfc': 3.2.47
       magic-string: 0.27.0
@@ -883,6 +883,7 @@ packages:
 
   /glob@7.1.6:
     resolution: {integrity: sha512-LwaxwyZ72Lk7vZINtNNrywX0ZuLyStrdDtabefZKAY5ZGJhVtgdznluResxNmPitE0SAO+O26sWTHeKSI2wMBA==}
+    deprecated: Glob versions prior to v9 are no longer supported
     dependencies:
       fs.realpath: 1.0.0
       inflight: 1.0.6
@@ -911,6 +912,7 @@ packages:
 
   /inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
     dependencies:
       once: 1.4.0
       wrappy: 1.0.2
