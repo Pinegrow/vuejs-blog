@@ -6,14 +6,13 @@
   "scripts": {
     "dev": "vitepress",
     "now": "npm run build && npm run preview",
-    "lighthouse:dev": "npx unlighthouse --no-cache --site http://localhost:5173",
     "lighthouse": "npx unlighthouse --no-cache --site https://blog.vuejs.org",
     "build": "vitepress build",
     "preview": "vitepress serve"
   },
   "devDependencies": {
     "@pinegrow/tailwindcss-plugin": "^3.0.29",
-    "@pinegrow/vite-plugin": "^3.0.60",
+    "@pinegrow/vite-plugin": "^3.0.65",
     "@tailwindcss/typography": "^0.5.4",
     "@types/markdown-it": "^12.2.3",
     "@types/node": "^18.7.13",
@@ -22,5 +21,6 @@
     "tailwindcss": "^3.3.1",
     "vitepress": "^1.0.0-alpha.75",
     "vue": "^3.2.47"
-  }
+  },
+  "packageManager": "pnpm@9.9.0+sha512.60c18acd138bff695d339be6ad13f7e936eea6745660d4cc4a776d5247c540d0edee1a563695c183a66eb917ef88f2b4feb1fc25f32a7adcadc7aaf3438e99c1"
 }
