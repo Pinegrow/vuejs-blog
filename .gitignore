@@ -1,6 +1,7 @@
 node_modules
 dist
 .vitepress/cache
+.env
 
 # Pinegrow
 _pgbackup
