@@ -9,11 +9,11 @@ importers:
   .:
     devDependencies:
       '@pinegrow/tailwindcss-plugin':
-        specifier: ^3.0.35
-        version: 3.0.35(tailwindcss@3.3.1(postcss@8.4.23))
+        specifier: ^4.2.3
+        version: 4.2.3(tailwindcss@3.3.1(postcss@8.4.23))
       '@pinegrow/vite-plugin':
-        specifier: ^3.0.68
-        version: 3.0.68
+        specifier: ^3.0.74
+        version: 3.0.74
       '@tailwindcss/typography':
         specifier: ^0.5.4
         version: 0.5.4(tailwindcss@3.3.1(postcss@8.4.23))
@@ -297,14 +297,14 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@pinegrow/tailwindcss-plugin@3.0.35':
-    resolution: {integrity: sha512-Q2y3YlpwfKQXjKN3BhY1pcBn2cMGCLCfPLxt+OkzO5P7+2fJs4FdTVnQcYzcX+KseKPktbnhjnQ/3PMQBQcW+w==}
+  '@pinegrow/tailwindcss-plugin@4.2.3':
+    resolution: {integrity: sha512-ouEUjVXt0h6Up9CWjRWBMnRFSVjTChzs7A7lhCzx/t7SL8hxuzWUJtgGVKUdXsI4Y2+cbXFWRCo7I9EENtN9hA==}
     hasBin: true
     peerDependencies:
       tailwindcss: '>=3'
 
-  '@pinegrow/vite-plugin@3.0.68':
-    resolution: {integrity: sha512-Z9B0jGvvAUe8s1Pycf1nWTcxmV8WbcxZySdAoN0XkCrd9tq1KFzzchPIYjckwjiZmZUwo/vg5HZK6KBa+Soy+g==}
+  '@pinegrow/vite-plugin@3.0.74':
+    resolution: {integrity: sha512-UxQ1ouSZw2EGt/OmZNe+MjeXfponZTk47DftoWf5Ev86E6go9aCwLp3ad1DyAJ3eCFDJWK/bWyGzqBXI+bYfcA==}
 
   '@tailwindcss/typography@0.5.4':
     resolution: {integrity: sha512-QEdg40EmGvE7kKoDei8zr5sf4D1pIayHj4R31bH3lX8x2BtTiR+jNejYPOkhbmy3DXgkMF9jC8xqNiGFAuL9Sg==}
@@ -1053,7 +1053,7 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
 
-  '@pinegrow/tailwindcss-plugin@3.0.35(tailwindcss@3.3.1(postcss@8.4.23))':
+  '@pinegrow/tailwindcss-plugin@4.2.3(tailwindcss@3.3.1(postcss@8.4.23))':
     dependencies:
       arg: 5.0.2
       chroma-js: 2.4.2
@@ -1063,7 +1063,7 @@ snapshots:
       sucrase: 3.34.0
       tailwindcss: 3.3.1(postcss@8.4.23)
 
-  '@pinegrow/vite-plugin@3.0.68':
+  '@pinegrow/vite-plugin@3.0.74':
     dependencies:
       '@vue/compiler-sfc': 3.2.47
       magic-string: 0.27.0

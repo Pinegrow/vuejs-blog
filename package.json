@@ -11,8 +11,8 @@
     "preview": "vitepress serve"
   },
   "devDependencies": {
-    "@pinegrow/tailwindcss-plugin": "^3.0.35",
-    "@pinegrow/vite-plugin": "^3.0.68",
+    "@pinegrow/tailwindcss-plugin": "^4.2.3",
+    "@pinegrow/vite-plugin": "^3.0.74",
     "@tailwindcss/typography": "^0.5.4",
     "@types/markdown-it": "^12.2.3",
     "@types/node": "^18.7.13",
